@@ -57,3 +57,6 @@ polkadot-service = { path = "polkadot/node/service" }
 
 [patch.crates-io]
 memory-lru = { git = "https://github.com/paritytech/memory-lru" } # TODO: REMOVE after it releases new version
+
+# TODO: https://github.com/libp2p/rust-yamux/pull/138
+yamux = { git = 'https://github.com/mxinden/yamux', branch = "next-result-immediately" }
